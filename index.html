@@ -1,23 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="/js/main.js"></script>
-    <link rel="stylesheet" href="/css/style.css">
-    <title>dogs litty as flip</title>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>fire sandwiches</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
 </head>
+
 <body>
-    <!-- Your content goes here -->
-    <h1>mira mi firulais</h1>
-    <div id="dog">
-        <img src="https://th.bing.com/th/id/OIP.7untuvLsTfPpAHvIz_998gHaEK?rs=1&pid=ImgDetMain" alt="This is a kitten.">
-        <button id="btn">bark</button>
-    </div>
-    <p>dogs are fire as flip, as they are not only our closest companions but our greatest friends, nicknamed "mans best friend"</p>
-    <p>they are some of our closest animals to our person, without them our happiness would be not only lost, but gone</p>
-    <li> Dogs were the first animals domesticated by humans.</li>
-    <li> Dogs are the most diverse mammals on earth.</li>
+    <h1>make a sandwich on the fly</h1>
+
+    <form>
+        <div class="FormItems">
+            <label for="name">Sandwich name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <div class="brd">
+                <p>choose a bread you like: </p>
+                <label class="radio_label" for="white">white</label>
+                <input type="radio" id="white" name="bread" value="white">
+                <br>
+                <label class="radio_label" for="wwbread">whole wheat</label>
+                <input type="radio" id="ww" name="bread" value="whole wheat">
+                <br>
+                <label class="radio_label" for="rye">rye</label>
+                <input type="radio" id="rye" name="bread" value="rye">
+                <br>
+                <label class="radio_label" for="gf">gluten free</label>
+                <input type="radio" id="gf" name="bread" value="gluten free">
+                <br>
+                <label class="radio_label" for="sb">sourdough</label>
+                <input type="radio" id="sb" name="bread" value="sourdough">
+        </div>
+
+
+        <div class="prtn">
+            <label for="protein"> Choose a protein dont be shy: </label>
+            <select>
+                <option value="turkey">turkey</option>
+                <option value="ham">Ham</option>
+                <option value="chicken">Chicken</option>
+                <option value="tofu">Tofu</option>
+                <option value="sausage">Sausage</option>
+                <option value="bacon">Bacon</option>
+                <option value="egg">Egg</option>
+                <option value="meatballs">Meatballs</option>
+            </select>
+        </div>
+
+
+        <div class="tppngs">
+            <p>Choose your toppings homeslice </p>
+            <label for="lettuce">Lettuce</label>
+            <input type="checkbox" id="lettuce" name="lettuce" value="lettuce">
+            <br>
+            <label for="tomato">tomato</label>
+            <input type="checkbox" id="tomato" name="tomato" value="tomato">
+            <br>
+            <label for="onion">Onion</label>
+            <input type="checkbox" id="onion" name="onion" value="onion">
+            <br>
+            <label for="pickles">Pickles</label>
+            <input type="checkbox" id="pickles" name="pickles" value="pickles">
+            <br>
+            <label for="cheese">Cheese</label>
+            <input type="checkbox" id="cheese" name="cheese" value="cheese">
+            <br>
+            <label for="mayo">Mayo</label>
+            <input type="checkbox" id="mayo" name="mayo" value="mayo">
+            <br>
+            <label for="mustard">Mustard</label>
+            <input type="checkbox" id="mustard" name="mustard" value="mustard">
+            <br>
+            <label for="ketchup">Ketchup</label>
+            <input type="checkbox" id="ketchup" name="ketchup" value="ketchup">
+            <br>
+        </div>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
